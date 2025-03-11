@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.active {
+  border: 1.5px solid rgb(65, 214, 65);
+}
+.active:hover {
+  color: white;
+  background: rgb(65, 214, 65);
+}
